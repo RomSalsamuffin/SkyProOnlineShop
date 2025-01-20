@@ -49,3 +49,8 @@ def get_category_json() -> list:
         output_categories_list.append(category)
     logger.info('Возврат списка категорий')
     return output_categories_list
+
+
+categories_list = get_category_json()
+for category in categories_list:
+    print(type(category))
