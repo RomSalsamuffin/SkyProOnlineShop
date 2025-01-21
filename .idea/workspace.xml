@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-    </list>
+    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +72,7 @@
     "git-widget-placeholder": "#2 on feature/homework14__2"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
@@ -161,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests for test_category.test_category_products" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests for test_utils.test_get_category_json" />
         <item itemvalue="Python tests.Python tests for test_product.test_product_price_setter" />
         <item itemvalue="Python tests.Python tests for test_product.test_product_new_product" />

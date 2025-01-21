@@ -25,9 +25,13 @@ def test_products_count(smartphones, televisors):
 
 def test_category_add_product(smartphones, product5):
     ''' Функция, тестирующая функцию add_category класса Category '''
+    assert smartphones.product_count == 3
     smartphones.add_product(product5)
     assert smartphones.product_count == 4
-    assert smartphones.products[-1] == "Xiaomi Redmi Note 13, 50000.0 руб. Остаток: 20 шт.\n"
+    assert smartphones.products == ('Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n'
+                                    'Iphone 15, 210000.0 руб. Остаток: 8 шт.\n'
+                                    'Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт.\n'
+                                    'Xiaomi Redmi Note 13, 50000.0 руб. Остаток: 20 шт.\n')
 
 
 def test_category_products(televisors):
