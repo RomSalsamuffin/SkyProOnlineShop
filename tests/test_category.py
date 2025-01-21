@@ -32,4 +32,4 @@ def test_category_add_product(smartphones, product5):
 
 def test_category_products(televisors):
     ''' Функция, тестирующая геттер products класса Category '''
-    assert televisors.products == ['55" QLED 4K, 123000.0 руб. Остаток: 7 шт.\n']
+    assert televisors.products == '55" QLED 4K, 123000.0 руб. Остаток: 7 шт.\n'
