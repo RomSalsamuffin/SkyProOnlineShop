@@ -45,12 +45,7 @@ def get_category_json() -> list:
                               price=product_dict.get('price'),
                               quantity=product_dict.get('quantity')
                               )
-            category.products.append(product)
+            category.add_product(product)
         output_categories_list.append(category)
     logger.info('Возврат списка категорий')
     return output_categories_list
-
-
-categories_list = get_category_json()
-for category in categories_list:
-    print(type(category))
