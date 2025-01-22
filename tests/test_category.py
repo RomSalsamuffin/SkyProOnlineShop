@@ -37,3 +37,8 @@ def test_category_add_product(smartphones, product5):
 def test_category_products(televisors):
     ''' Функция, тестирующая геттер products класса Category '''
     assert televisors.products == '55" QLED 4K, 123000.0 руб. Остаток: 7 шт.\n'
+
+
+def test_category_str(smartphones):
+    ''' Функция, тестирующая магический метод __str__ класса Category '''
+    assert smartphones.__str__() == 'Смартфоны, количество продуктов: 27 шт.'

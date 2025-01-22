@@ -6,7 +6,8 @@ class Product:
     __price: float  # Цена товара
     quantity: int  # Количество товара на складе
 
-    def __init__(self, name, description, price, quantity):
+    def __init__(self, name: str, description: str, price: float, quantity: int):
+        ''' Конструктор объектов класса Product '''
         self.name = name
         self.description = description
         self.price = price
@@ -14,10 +15,12 @@ class Product:
 
     @property
     def price(self):
+        ''' Геттер-метод для получения цены товара '''
         return self.__price
 
     @price.setter
     def price(self, value: float):
+        ''' Метод-сеттер для установки значения цены товара '''
         if value <= 0:
             print("Цена не должна быть нулевая или отрицательная")
         else:
@@ -25,8 +28,17 @@ class Product:
 
     @classmethod
     def new_product(cls, product_dict: dict):
-        name = product_dict.get('name')
-        description = product_dict.get('description')
-        price = product_dict.get('price')
-        quantity = product_dict.get('quantity')
+        ''' Метод для добавления нового продукта по данным из словаря '''
+        name: str = product_dict['name']
+        description: str = product_dict['description']
+        price: float = product_dict['price']
+        quantity: int = product_dict['quantity']
         return cls(name, description, price, quantity)
+
+    def __str__(self):
+        ''' Магический метод для строкового отображения объекта  '''
+        return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        ''' Магический метод, который вызывается при сложении двух объектов '''
+        return self.price * self.quantity + other.price * other.quantity

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="" />
+    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,25 +58,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for conftest.test_init_category.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_add_product.executor": "Run",
     "Python tests.Python tests for test_category.test_category_count.executor": "Run",
     "Python tests.Python tests for test_category.test_category_init.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_products.executor": "Run",
+    "Python tests.Python tests for test_category.test_category_str.executor": "Run",
     "Python tests.Python tests for test_category.test_products_count.executor": "Run",
+    "Python tests.Python tests for test_product.test_product_add.executor": "Run",
     "Python tests.Python tests for test_product.test_product_init.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_new_product.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_price_setter.executor": "Run",
-    "Python tests.Python tests for test_utils.test_get_category_json.executor": "Run",
+    "Python tests.Python tests for test_product.test_product_str.executor": "Run",
     "Python tests.Python tests in test_category.py.executor": "Run",
     "Python tests.Python tests in test_product.py.executor": "Run",
     "Python tests.Python tests in test_utils.py.executor": "Run",
-    "Python.14_2_main.executor": "Run",
     "Python.category.executor": "Run",
     "Python.main.executor": "Run",
     "Python.product.executor": "Run",
     "Python.utils.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#2 on feature/homework14__2"
+    "git-widget-placeholder": "feature/homework15__1"
   }
 }]]></component>
   <component name="RunManager">
@@ -95,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_category.test_category_products" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_category.test_category_str" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +110,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_category.test_category_products&quot;" />
+      <option name="_new_target" value="&quot;test_category.test_category_str&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_product_new_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_product.test_product_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,11 +125,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_product_new_product&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_product_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_product_price_setter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_product.test_product_init" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,11 +140,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_product_price_setter&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_product_init&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_utils.test_get_category_json" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_product.test_product_str" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,17 +155,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_utils.test_get_category_json&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_product_str&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_category.test_category_products" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for test_utils.test_get_category_json" />
-        <item itemvalue="Python tests.Python tests for test_product.test_product_price_setter" />
-        <item itemvalue="Python tests.Python tests for test_product.test_product_new_product" />
+        <item itemvalue="Python tests.Python tests for test_category.test_category_str" />
+        <item itemvalue="Python tests.Python tests for test_product.test_product_add" />
+        <item itemvalue="Python tests.Python tests for test_product.test_product_str" />
+        <item itemvalue="Python tests.Python tests for test_product.test_product_init" />
       </list>
     </recent_temporary>
   </component>
