@@ -6,17 +6,28 @@ class Category:
 
     name: str  # Название товара
     description: str  # Описание товара
-    products: list[Product]  # Список товаров в категории
+    __products: list[Product]  # Список товаров в категории
     category_count: int = 0  # Счетчик количества категорий
     product_count: int = 0  # Счетчик количества товаров
 
     def __init__(self, name, description, products):
         self.name = name
         self.description = description
-        self.products = products
+        self.__products = products
         Category.category_count += 1
         Category.product_count += len(products)
 
     def __del__(self):
         Category.category_count -= 1
-        Category.product_count -= len(self.products)
+        Category.product_count -= len(self.__products)
+
+    def add_product(self, product: Product):
+        self.__products.append(product)
+        Category.product_count += 1
+
+    @property
+    def products(self) -> str:
+        products_str = ''
+        for product in self.__products:
+            products_str += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n"
+        return products_str

@@ -49,3 +49,19 @@ def televisors(product4):
                     "Современный телевизор, который позволяет наслаждаться просмотром, "
                     "станет вашим другом и помощником",
                     [product4])
+
+
+@pytest.fixture(scope="function")
+def product5():
+    return Product("Xiaomi Redmi Note 13",
+                   "1024GB, Черный",
+                   50000.0,
+                   20)
+
+
+@pytest.fixture(scope="function")
+def product6():
+    return {"name": "HTC desire C",
+            "description": "128GB, Красный",
+            "price": 10000.0,
+            "quantity": 10}
