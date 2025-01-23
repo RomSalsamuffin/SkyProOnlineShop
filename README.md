@@ -17,11 +17,20 @@ git clone https://github.com/RomSalsamuffin/SkyProOnlineShop.git
 #### Модуль category
 Содержит описание класса Category
 
+#### Модуль config
+Содержит переменные, необходимые для работы проекта
+
+#### Модуль lawngrass
+Содержит описание класса LawnGrass
+
 #### Модуль main 
 Содержит код, реализующий основную логику приложения
 
 #### Модуль product
 Содержит описание класса Product
+
+#### Модуль smartphone
+Содержит описание класса Smartphone
 
 ### Пакет tests
 Содержит модули тестов
@@ -31,8 +40,14 @@ git clone https://github.com/RomSalsamuffin/SkyProOnlineShop.git
 #### Модуль test_category
 Модуль, содержащий функции для тестирования модуля src.category
 
+#### Модуль test_lawngrass
+Модуль, содержащий функции для тестирования модуля src.lawngrass
+
 #### Модуль test_product
 Модуль, содержащий функции для тестирования модуля src.product
+
+#### Модуль test_smartphone
+Модуль, содержащий функции для тестирования модуля src.smartphone
 
 #### Модуль test_utils
 Модуль, содержащий функции для тестирования модуля src.utils

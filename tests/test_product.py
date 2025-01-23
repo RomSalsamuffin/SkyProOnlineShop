@@ -7,6 +7,7 @@ def test_product_init(product1):
     assert product1.description == "256GB, Серый цвет, 200MP камера"
     assert product1.price == 180000.0
     assert product1.quantity == 5
+    assert product1.color == "Серый"
 
 
 def test_product_new_product(product6):
@@ -16,6 +17,7 @@ def test_product_new_product(product6):
     assert new_product.description == "128GB, Красный"
     assert new_product.price == 10000
     assert new_product.quantity == 10
+    assert new_product.color == "Красный"
 
 
 def test_product_price_setter(capsys, product1):
