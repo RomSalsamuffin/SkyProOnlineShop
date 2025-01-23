@@ -27,3 +27,13 @@ def test_product_price_setter(capsys, product1):
     captured = capsys.readouterr()
     assert captured.out == 'Цена не должна быть нулевая или отрицательная\n'
     assert product1.price == 200000
+
+
+def test_product_str(product1):
+    ''' Функция, тестирующая магический метод __str__ класса Product '''
+    assert product1.__str__() == 'Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.'
+
+
+def test_product_add(product1, product2):
+    ''' Функция, тестирующая магический метод __add__ класса Product '''
+    assert product1 + product2 == 2580000.0
