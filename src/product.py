@@ -44,6 +44,6 @@ class Product:
 
     def __add__(self, other):
         ''' Магический метод, который вызывается при сложении двух объектов '''
-        if not isinstance(other, type(self)):
+        if not type(self) == type(other):
             raise TypeError('Складывать можно только объекты класса Product или дочерних классов')
         return self.price * self.quantity + other.price * other.quantity

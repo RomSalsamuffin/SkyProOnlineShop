@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
-    </list>
+    <list default="true" id="ef9ac72c-6941-462a-a966-507967b1c7e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,37 +48,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for conftest.test_init_category.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_add_product.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_count.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_init.executor": "Run",
-    "Python tests.Python tests for test_category.test_category_str.executor": "Run",
-    "Python tests.Python tests for test_category.test_products_count.executor": "Run",
-    "Python tests.Python tests for test_lawngrass.test_lawngrass_init.executor": "Run",
-    "Python tests.Python tests for test_lawngrass.test_smartphone_add.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_add.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_init.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_new_product.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_price_setter.executor": "Run",
-    "Python tests.Python tests for test_product.test_product_str.executor": "Run",
-    "Python tests.Python tests for test_smartphone.test_smartphone_add.executor": "Run",
-    "Python tests.Python tests for test_smartphone.test_smartphone_init.executor": "Run",
-    "Python tests.Python tests in test_category.py.executor": "Run",
-    "Python tests.Python tests in test_lawngrass.py.executor": "Run",
-    "Python tests.Python tests in test_product.py.executor": "Run",
-    "Python tests.Python tests in test_smartphone.py.executor": "Run",
-    "Python tests.Python tests in test_utils.py.executor": "Run",
-    "Python.category.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.product.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/homework16__1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for conftest.test_init_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_add_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_category_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_products_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lawngrass.test_lawngrass_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lawngrass.test_smartphone_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_new_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_price_setter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_product_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_smartphone.test_smartphone_add.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_smartphone.test_smartphone_init.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_category.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_lawngrass.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_product.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_smartphone.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_utils.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/homework16__1&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_category.test_category_add_product">
     <configuration name="Python tests for test_category.test_category_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SkyProOnlineShop" />
       <option name="ENV_FILES" value="" />
