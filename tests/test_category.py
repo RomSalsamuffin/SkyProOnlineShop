@@ -23,7 +23,7 @@ def test_products_count(smartphones, televisors):
     assert televisors.product_count == 4
 
 
-def test_category_add_product(smartphones, product5):
+def test_category_add_product(smartphones, product5, smartphone1, grass1):
     ''' Функция, тестирующая функцию add_category класса Category '''
     assert smartphones.product_count == 3
     smartphones.add_product(product5)
@@ -32,6 +32,25 @@ def test_category_add_product(smartphones, product5):
                                     'Iphone 15, 210000.0 руб. Остаток: 8 шт.\n'
                                     'Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт.\n'
                                     'Xiaomi Redmi Note 13, 50000.0 руб. Остаток: 20 шт.\n')
+    smartphones.add_product(smartphone1)
+    assert smartphones.product_count == 5
+    assert smartphones.products == ('Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n'
+                                    'Iphone 15, 210000.0 руб. Остаток: 8 шт.\n'
+                                    'Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт.\n'
+                                    'Xiaomi Redmi Note 13, 50000.0 руб. Остаток: 20 шт.\n'
+                                    'Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n')
+    smartphones.add_product(grass1)
+    assert smartphones.product_count == 6
+    assert smartphones.products == ('Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n'
+                                    'Iphone 15, 210000.0 руб. Остаток: 8 шт.\n'
+                                    'Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт.\n'
+                                    'Xiaomi Redmi Note 13, 50000.0 руб. Остаток: 20 шт.\n'
+                                    'Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n'
+                                    'Газонная трава, 500.0 руб. Остаток: 20 шт.\n')
+    smartphones.add_product(1)
+    assert smartphones.product_count == 6
+    smartphones.add_product([1, 2, 3])
+    assert smartphones.product_count == 6
 
 
 def test_category_products(televisors):

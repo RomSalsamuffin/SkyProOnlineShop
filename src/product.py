@@ -5,13 +5,15 @@ class Product:
     description: str  # Описание товара
     __price: float  # Цена товара
     quantity: int  # Количество товара на складе
+    color: str  # Цвет товара
 
-    def __init__(self, name: str, description: str, price: float, quantity: int):
+    def __init__(self, name: str, description: str, price: float, quantity: int, color: str = ''):
         ''' Конструктор объектов класса Product '''
         self.name = name
         self.description = description
         self.price = price
         self.quantity = quantity
+        self.color = color
 
     @property
     def price(self):
@@ -33,7 +35,8 @@ class Product:
         description: str = product_dict['description']
         price: float = product_dict['price']
         quantity: int = product_dict['quantity']
-        return cls(name, description, price, quantity)
+        color: str = product_dict['color']
+        return cls(name, description, price, quantity, color)
 
     def __str__(self):
         ''' Магический метод для строкового отображения объекта  '''
@@ -41,4 +44,6 @@ class Product:
 
     def __add__(self, other):
         ''' Магический метод, который вызывается при сложении двух объектов '''
+        if not type(self) == type(other):
+            raise TypeError('Складывать можно только объекты класса Product или дочерних классов')
         return self.price * self.quantity + other.price * other.quantity
